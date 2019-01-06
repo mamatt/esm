@@ -1,0 +1,22 @@
+{
+  "requestId": "17198959541095129637",
+  "payload": {
+    "devices": {
+	"Array" :{
+		"on": true,
+        "online": true
+		}}}}{
+  "requestId": "5117464397051394984",
+  "payload": {
+    "devices": {
+	"3" :{
+		"on": true,
+        "online": true
+		}}}}{
+  "requestId": "2088509447412613988",
+  "payload": {
+    "devices": {
+	"3" :{
+		"on": true,
+        "online": true
+		}}}}

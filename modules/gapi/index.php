@@ -1,7 +1,8 @@
 <?php
-include "../../conf/config.php" ;
+require_once "../../conf/config.php" ;
 
-include __BASEDIR__."/data/devices.php" ;
+include "sync.php" ;
+include "query.php" ;
 
 
 //Receive the RAW post data.
@@ -13,13 +14,17 @@ $decoded = json_decode($content, true) ;
 $request_id = $decoded["requestId"] ;
 $intent = $decoded["inputs"][0]["intent"] ;
 
+dbg("request.log",print_r($decoded,true)) ;
+
+//$intent ="action.devices.SYNC" ;
+
 switch ($intent) {
 case "action.devices.SYNC":
 		sync($request_id) ;
 		break ;
 case "action.devices.QUERY":
-		//TODO
-		//query($request_id) ;
+		$devices = $decoded["inputs"][0]["payload"]["devices"] ;
+		query($request_id,$devices) ;
 		break ;
 case "action.devices.EXECUTE":
 		//TODO ;
@@ -29,51 +34,4 @@ case "action.devices.DISCONNECT":
 		break ;
 }
 
-function sync($rid) {
-	$fakedevices ='
-{
-	"requestId": "'.$rid.'",
-	"payload" : {
-		"agentUserId": "1234567890",
-		"devices": [{
-			"id": "1" ,
-			"type": "action.devices.types.OUTLET",
-			"traits": [
-					"action.devices.traits.OnOff"
-			],
-			"name": {
-				"defaultNames": ["Ma prise 1"],
-				"name": "SO 1",
-				"nicknames": ["tasmota sonoff"]
-			},
-			"willReportState": false
-		}]
-	}
-}' ;
-	 
-	$header ='{
-		"requestId": "'.$rid.'",
-	"payload" : {
-		"agentUserId": "1234567890",
-		"devices": [
-	 ' ;
-	 
-	 $footer='		]
-	}
-}' ;
-	$reponse = $header ;
-  
-    $dl = getDevicesList() ;
-   
-	foreach ($dl as $device) {
-		$reponse .= $device ;
-		$reponse .="," ;
-	} ;
- 	
-	$reponse=trim($reponse,",") ;
-	$reponse .= $footer ;
-	
-		
-	header("Content-Type: application/json;charset=UTF-8") ;
-	echo $reponse ;
-}
+

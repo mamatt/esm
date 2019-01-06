@@ -1,32 +1,30 @@
 <?php
 function getDevicesList() {
+//$devices= array() ;
 	
-$devices_list = Array (
-'{	"id": "1" ,
-	"type": "action.devices.types.OUTLET",
-	"traits": [
-			"action.devices.traits.OnOff"
-	],
-	"name": {
-		"defaultNames": ["Ma prise 1"],
-		"name": "so-XXX",
-		"nicknames": ["SonOff Tasmota"]
-	},
-	"willReportState": false }'
-,
-'{	"id": "2" ,
-	"type": "action.devices.types.BLINDS",
-	"traits": [
-			"action.devices.traits.OpenClose"
-	],
-	"name": {
-		"defaultNames": ["Mon volet 1"],
-		"name": "vo-XXX",
-		"nicknames": ["Volet SonOff"]
-	},
-	"willReportState": false }'
-) ;
+$devices[1]["name"] = "so-homestudio" ;
+$devices[1]["type"] = "OUTLET"        ;
+$devices[1]["traits"] = "OnOff"       ;
+$devices[1]["state"] = "fake"         ;   
+$devices[1]["param"] = "/topic/mqtt"  ;
 
+$devices[2]["name"] = "vo-homestudio" ;
+$devices[2]["type"] = "BLINDS"        ;
+$devices[2]["traits"] = "OpenClose"   ;
+$devices[2]["state"] = "fake"         ;   
+$devices[2]["param"] = "/topic/mqtt"  ;
 
-	return $devices_list ;
+$devices[3]["name"] = "mi-homestudio" ;
+$devices[3]["type"] = "SWITCH"        ;
+$devices[3]["traits"] = "OnOff"       ;
+$devices[3]["state"] = "fake"         ;   
+$devices[3]["param"] = "/topic/mqtt"  ;
+	
+/* 
+$devices[3]["name"] = "XXXXXXXXX" ;
+$devices[3]["type"] = "LIGHT"     ;
+$devices[3]["traits"] = "OnOff"   ; 
+*/
+
+return $devices ;
 }

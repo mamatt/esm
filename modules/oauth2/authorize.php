@@ -1,6 +1,9 @@
 <?php
 // include our OAuth2 Server object
+require_once '../../conf/config.php' ;
+
 require_once 'server.php';
+
 
 $request = OAuth2\Request::createFromGlobals();
 $response = new OAuth2\Response();
@@ -12,12 +15,8 @@ if (!$server->validateAuthorizeRequest($request, $response)) {
 }
 // display an authorization form
 if (empty($_POST)) {
-  exit('
-<form method="post">
-  <label>Enter your Authorisation Key</label><br />
-  <input type="text"   name="authKey">
-  <input type="submit" name="authorized" value="submit">
-</form>');
+	include __BASEDIR__.'/views/oauth2/authorize.php' ;
+	exit() ;
 }
 
 // print the authorization code if the user has authorized your client

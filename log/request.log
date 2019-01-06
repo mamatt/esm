@@ -1,0 +1,882 @@
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [intent] => action.devices.SYNC
+                )
+
+        )
+
+    [requestId] => 11831777592962585238
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [intent] => action.devices.QUERY
+                    [payload] => Array
+                        (
+                            [devices] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 3
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 1626732141460434114
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [context] => Array
+                        (
+                            [locale_language] => en
+                        )
+
+                    [intent] => action.devices.EXECUTE
+                    [payload] => Array
+                        (
+                            [commands] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [devices] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => 3
+                                                        )
+
+                                                )
+
+                                            [execution] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [command] => action.devices.commands.OnOff
+                                                            [params] => Array
+                                                                (
+                                                                    [on] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 17885396093700779525
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [intent] => action.devices.QUERY
+                    [payload] => Array
+                        (
+                            [devices] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 3
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 4383957395528600225
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [context] => Array
+                        (
+                            [locale_language] => en
+                        )
+
+                    [intent] => action.devices.EXECUTE
+                    [payload] => Array
+                        (
+                            [commands] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [devices] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => 3
+                                                        )
+
+                                                )
+
+                                            [execution] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [command] => action.devices.commands.OnOff
+                                                            [params] => Array
+                                                                (
+                                                                    [on] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 12360040749978152207
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [intent] => action.devices.QUERY
+                    [payload] => Array
+                        (
+                            [devices] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 3
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 950539558983452247
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [context] => Array
+                        (
+                            [locale_language] => en
+                        )
+
+                    [intent] => action.devices.EXECUTE
+                    [payload] => Array
+                        (
+                            [commands] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [devices] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => 3
+                                                        )
+
+                                                )
+
+                                            [execution] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [command] => action.devices.commands.OnOff
+                                                            [params] => Array
+                                                                (
+                                                                    [on] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 5823933251464430090
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [intent] => action.devices.QUERY
+                    [payload] => Array
+                        (
+                            [devices] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 3
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 12951800718549110164
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [context] => Array
+                        (
+                            [locale_language] => en
+                        )
+
+                    [intent] => action.devices.EXECUTE
+                    [payload] => Array
+                        (
+                            [commands] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [devices] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => 3
+                                                        )
+
+                                                )
+
+                                            [execution] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [command] => action.devices.commands.OnOff
+                                                            [params] => Array
+                                                                (
+                                                                    [on] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 10919128869038159091
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [intent] => action.devices.QUERY
+                    [payload] => Array
+                        (
+                            [devices] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 3
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 13166619592962068252
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [context] => Array
+                        (
+                            [locale_language] => en
+                        )
+
+                    [intent] => action.devices.EXECUTE
+                    [payload] => Array
+                        (
+                            [commands] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [devices] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => 3
+                                                        )
+
+                                                )
+
+                                            [execution] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [command] => action.devices.commands.OnOff
+                                                            [params] => Array
+                                                                (
+                                                                    [on] => 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 17589538440560356153
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [intent] => action.devices.QUERY
+                    [payload] => Array
+                        (
+                            [devices] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 3
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 12613018155662758605
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [context] => Array
+                        (
+                            [locale_language] => en
+                        )
+
+                    [intent] => action.devices.EXECUTE
+                    [payload] => Array
+                        (
+                            [commands] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [devices] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => 3
+                                                        )
+
+                                                )
+
+                                            [execution] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [command] => action.devices.commands.OnOff
+                                                            [params] => Array
+                                                                (
+                                                                    [on] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 4508207211624652110
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [context] => Array
+                        (
+                            [locale_language] => en
+                        )
+
+                    [intent] => action.devices.EXECUTE
+                    [payload] => Array
+                        (
+                            [commands] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [devices] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => 3
+                                                        )
+
+                                                )
+
+                                            [execution] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [command] => action.devices.commands.OnOff
+                                                            [params] => Array
+                                                                (
+                                                                    [on] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 6517127889036860092
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [intent] => action.devices.QUERY
+                    [payload] => Array
+                        (
+                            [devices] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 3
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 8380719180751111506
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [context] => Array
+                        (
+                            [locale_language] => en
+                        )
+
+                    [intent] => action.devices.EXECUTE
+                    [payload] => Array
+                        (
+                            [commands] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [devices] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => 3
+                                                        )
+
+                                                )
+
+                                            [execution] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [command] => action.devices.commands.OnOff
+                                                            [params] => Array
+                                                                (
+                                                                    [on] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 17575961592207416605
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [intent] => action.devices.QUERY
+                    [payload] => Array
+                        (
+                            [devices] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 3
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 7019801333116510579
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [context] => Array
+                        (
+                            [locale_language] => en
+                        )
+
+                    [intent] => action.devices.EXECUTE
+                    [payload] => Array
+                        (
+                            [commands] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [devices] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => 3
+                                                        )
+
+                                                )
+
+                                            [execution] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [command] => action.devices.commands.OnOff
+                                                            [params] => Array
+                                                                (
+                                                                    [on] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 5121652544884419051
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [intent] => action.devices.QUERY
+                    [payload] => Array
+                        (
+                            [devices] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 3
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 17198959541095129637
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [context] => Array
+                        (
+                            [locale_language] => en
+                        )
+
+                    [intent] => action.devices.EXECUTE
+                    [payload] => Array
+                        (
+                            [commands] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [devices] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => 3
+                                                        )
+
+                                                )
+
+                                            [execution] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [command] => action.devices.commands.OnOff
+                                                            [params] => Array
+                                                                (
+                                                                    [on] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 6354614638653433888
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [intent] => action.devices.QUERY
+                    [payload] => Array
+                        (
+                            [devices] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 3
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 5117464397051394984
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [context] => Array
+                        (
+                            [locale_language] => en
+                        )
+
+                    [intent] => action.devices.EXECUTE
+                    [payload] => Array
+                        (
+                            [commands] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [devices] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => 3
+                                                        )
+
+                                                )
+
+                                            [execution] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [command] => action.devices.commands.OnOff
+                                                            [params] => Array
+                                                                (
+                                                                    [on] => 
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 14222604522228324075
+)
+Array
+(
+    [inputs] => Array
+        (
+            [0] => Array
+                (
+                    [intent] => action.devices.QUERY
+                    [payload] => Array
+                        (
+                            [devices] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 3
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [requestId] => 2088509447412613988
+)
