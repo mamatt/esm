@@ -21,12 +21,17 @@ function sync($rid) {
 		$reponse .= '{	"id": "'.$num.'" ,
 		"type": "action.devices.types.'.$device["type"].'",
 		"traits": [
-				"action.devices.traits.'.$device["traits"].'"
-		],
+				"action.devices.traits.'.
+				str_replace('|','","action.devices.traits.',$device["traits"]) 		
+		.'"],
 		"name": { 
 			"name": "'.$device["name"].'" 
-		},
-		"willReportState": false },' ;
+		},'; 
+		
+		if ( $device["attributes"] != "" ) {
+			$reponse.= '"attributes": '.$device["attributes"]."," ;
+		}
+		$reponse .= '"willReportState": false },' ;
 	}
  	
 	$reponse=trim($reponse,",") ;

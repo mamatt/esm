@@ -7,10 +7,10 @@ function query($rid,$devices) {
 	$dl = getDevicesList() ;
 	
 	$reponse = '{
-  "requestId": "'.$rid.'",
-  "payload": {
-    "devices": {
-	' ;
+				"requestId": "'.$rid.'",
+			    "payload": {
+				"devices": {
+				' ;
 	
 	foreach ($devices as $device) {
 		$stateMethod = $dl[$device["id"]]["state"] ;

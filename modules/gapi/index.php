@@ -16,7 +16,7 @@ $intent = $decoded["inputs"][0]["intent"] ;
 
 dbg("request.log",print_r($decoded,true)) ;
 
-//$intent ="action.devices.SYNC" ;
+$intent ="action.devices.SYNC" ;
 
 switch ($intent) {
 case "action.devices.SYNC":
