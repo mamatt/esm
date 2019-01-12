@@ -1,5 +1,5 @@
 <?php
-require_once ('../../conf/config.php') ;
+require_once ('../../conf/global.php') ;
 
 // connection for SQLite
 $pdo = new PDO('sqlite:'.__BASEDIR__.'/data/oauth2.db');

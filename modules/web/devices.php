@@ -1,5 +1,5 @@
 <?php
-require_once "../../conf/config.php" ;
+require_once "../../conf/global.php" ;
 require_once __BASEDIR__."/data/devices.php" ;
 
 include(__BASEDIR__."/views/web/devices.php") ;

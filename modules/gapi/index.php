@@ -1,5 +1,5 @@
 <?php
-require_once "../../conf/config.php" ;
+require_once "../../conf/global.php" ;
 
 include "sync.php" ;
 include "query.php" ;

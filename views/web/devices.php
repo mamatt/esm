@@ -14,7 +14,7 @@ function render_view($content) {
 	</head>
 	 <body>
 <?php 
-	include "../lib/navbar.php" ;
+	include __BASEDIR__."/views/lib/navbar.php" ;
 ?>
 	<div id=footer class="container">
 		<table class="table table-striped  table-hover ">

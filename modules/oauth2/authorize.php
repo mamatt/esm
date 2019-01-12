@@ -1,6 +1,6 @@
 <?php
 // include our OAuth2 Server object
-require_once '../../conf/config.php' ;
+require_once '../../conf/global.php' ;
 
 require_once 'server.php';
 

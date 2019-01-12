@@ -9,7 +9,7 @@
 </head>
  <body>
 <?php 
-	include "../lib/navbar.php" ;
+	include __BASEDIR__."/views/lib/navbar.php" ;
 ?>
 
 <div id=form class="container align-middle">
