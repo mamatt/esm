@@ -8,9 +8,9 @@
    <title>ESMB - Easy Smart Home Bridging</title>
 </head>
  <body>
-<div id=header class="container-fluid" >
-ESMB - Easy Smart Home Bridging
-</div>
+<?php 
+	include "../lib/navbar.php" ;
+?>
 
 <div id=form class="container align-middle">
 	<form method="post" class="form-signin">

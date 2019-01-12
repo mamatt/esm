@@ -13,14 +13,12 @@ function render_view($content) {
 	   <title>ESMB - Easy Smart Home Bridging</title>
 	</head>
 	 <body>
-	 
 <?php 
-	include "navbar.php" ;
+	include "../lib/navbar.php" ;
 ?>
- 
 	<div id=footer class="container">
-		<table class="table table-striped  table-hover">
-			<thead>
+		<table class="table table-striped  table-hover ">
+			<thead >
 				<tr>
 					<th scope="col">Name</th>
 					<th scope="col">Type</th>
